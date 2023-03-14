@@ -1,0 +1,101 @@
+#mybanner{
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mybanner > h1{
+font-size: 45px;
+text-transform:uppercase;
+font-weight: 100;
+color:indigo;
+}
+
+#mybanner > p{
+    font-size: 18px;
+    text-transform:capitalize;
+}
+
+#mybanner > button {
+    width: 1
+    0%;
+    height: 20%;
+    background-color: #e67e22;
+    padding: 15px;
+    text-transform: lowercase;
+    color: white;
+    border: 1px solid #e67e22;
+    font-size: 18px;
+    border-radius: 20px ;
+}
+
+#mybanner > button:hover{
+
+    background-color: #1abc9c;
+    border: 2px solid #e67e22;
+    color: white;
+    font-size:18px;
+}
+
+#bottom{
+    width=100%;
+    height=50%;
+    background-color:skyblue ;
+    color:indigo;
+    text-align: center;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bottom > table{
+    margin-left: 30%;
+}
+
+/******* Gallery styling ****************/
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+   width:33.3333%;
+   float: left; 
+}
+.row > .column > img{
+    width: 225px;
+    height:200px;
+}
+
+.row > .column > h3{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: large;
+    font-weight: 300;
+}
+
+.row > .column > p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: medium;
+    font-weight: 200;
+}
+
+#staffname{
+    font-size: x-large;
+    font-weight: 400;
+}
+
+#staffjob{
+     font-size: large;
+     font-weight: 400;
+}
+
+#tasks{
+    font-size:medium;
+    font-weight: 300;
+    color: white;
+
+}
